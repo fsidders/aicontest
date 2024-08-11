@@ -16,4 +16,3 @@ def speak(text, language="en"):
     channel = sound.play()
     while channel.get_busy():
         pygame.time.wait(100)
-

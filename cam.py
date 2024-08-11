@@ -7,7 +7,7 @@ import time
 def name_generator(size=6, chars=string.ascii_uppercase + string.digits):
     ms = time.time_ns()
     idn = "".join(random.choice(chars) for _ in range(size))
-    return str(ms) + "_" + str(idn) + ".jpg"
+    return "tvhelper_" + str(ms) + "_" + str(idn) + ".jpg"
 
 
 def capture(directory):

@@ -63,4 +63,3 @@ class QuestionNews:
         else:
             newsabouttopic = "News about this topic:" + news.getNews(answer, 3)
         return newsabouttopic
-

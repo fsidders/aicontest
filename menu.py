@@ -15,6 +15,9 @@ img_dir = os.getenv("IMG_DIR")
 pygame.init()
 
 
+pygame.mouse.set_visible(False)
+
+
 def square(colorb, text):
     squareb = pygame.Surface((400, 240))
     color = pygame.Color(colorb)
